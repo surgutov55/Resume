@@ -1,0 +1,937 @@
+body {
+    color:black;
+    margin: 0 0;
+
+}
+div {                    /*Размеры для моих блоков*/
+    height:700px;
+    max-height: 100%;
+    width:100%;
+}
+
+
+/* Style the top navigation bar */
+.navbar {
+    position: fixed;
+    overflow: hidden; /* Hide overflow */
+    background-color: #4D5656 ; /* Dark background color */
+    height:7%;
+    width:100%;
+    top:0%;
+    z-index: 100;
+    
+    
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+}
+
+
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+    background-color: #3498DB; /* Grey background color */
+    color: black; /* Black text color */
+}
+
+ .name {
+    width:32%;
+    font-size:110%;
+    text-align: center;
+}
+
+.block11,
+.block22,
+.block33,
+.block44 {
+    width:17%;
+}
+
+
+
+
+
+
+
+
+
+
+.main {
+    width:40%;
+    height:20%;
+    left:6%;
+    top:66%;
+    position:absolute;
+    font-family: 'Times New Roman', Times, serif; /* Шрифт с засечками */
+    font-style: italic;
+    color: black;
+    font-size: 110%;
+    
+    
+}
+h1 {
+    font-size: 170%;
+}
+
+.photo {
+    width:35%;
+    height:50%;
+    left:5%;
+    top:16%;
+    position:absolute;
+    background: url(../img/photo.jpg) no-repeat;
+    background-size:cover;
+    background-position:center;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+
+
+#example {
+    background: white;
+    width:51%;
+    height: 77%;
+    border-radius: 20px;
+    font-family: "Courier New" monospace;
+    padding:0px 0px 0px 20px;
+    font-size: 170%;
+    position: absolute;
+    left:45%;
+    top:16%;
+    border: 2px solid black;
+}
+
+#example{display:none;}
+#example .new{opacity: 0;}
+#example .div_opacity{
+  -webkit-transition: opacity .1s ease-in-out;
+  -moz-transition: opacity .1s ease-in-out;
+  -ms-transition: opacity .1s ease-in-out;
+  -o-transition: opacity .1s ease-in-out;
+  transition: opacity .1s ease-in-out;
+  opacity: 1;}
+
+/* Для анимации текста с CSS
+.blog {
+    position: absolute;
+    width:50%;
+    height: 75%;
+    top:20%;
+    left: 40%;
+    background-color: aliceblue;
+    border-radius: 20px;
+}*/ 
+
+
+
+/*Вариант набора текста при помощи CSS
+.css-typing
+{
+ width: 30em;
+ white-space:nowrap;
+ overflow:hidden;
+ -webkit-animation: type 5s steps(50, end);
+ animation: type 5s steps(50, end);
+}
+
+@keyframes type{
+ from { width: 0; }
+}
+
+@-webkit-keyframes type{
+ from { width: 0; }
+}
+*/
+
+/*
+.city1 {
+    width:90px;
+    height:110px;
+    left:700px;
+    top:920px;
+    position:absolute;
+    background-color: white;
+    border-radius: 10px;
+    color:black;
+    text-align: center;
+    font-size: 100%;
+    background: url(../img/taganlogo.png) no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+.city2 {
+    width:90px;
+    height:110px;
+    left:1150px;
+    top:1350px;
+    position:absolute;
+    background-color: white;
+    border-radius: 10px;
+    color:limegreen;
+    text-align: center;
+    font-size: 100%;
+    background: url(../img/Almaty.svg.png) no-repeat;
+    background-size:contain;
+    background-position:center;
+}*/
+
+
+
+
+.city {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    color: black; /* Цвет ссылок */
+}
+/*               Города, первая версия  
+.point1 {
+    width:20px;
+    height:20px;
+    left:12%;
+    top:132%;
+    position:absolute;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+    
+}
+.point2 {
+    width:20px;
+    height:20px;
+    left:48%;
+    top:204%;
+    position:absolute;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.point3 {
+    
+}
+ */
+.block1 { 
+     
+    background: linear-gradient(45deg, rgba(174, 231, 239, 0.52), rgba(34, 101, 163, .5)) ,url(../img/parysa.jpg) no-repeat;
+     /*background: linear-gradient(45deg, #EECFBA, #C5DDE8);*/
+     background-position: center center;   
+     background-size:cover;
+     background-attachment: fixed; 
+     /*174, 231, 239, 0.52            119, 215, 228, 0.52*/
+}
+
+.block2 {
+    
+    background: url(../img/bg5.png) repeat repeat;
+    background-size:   
+    /* background:url(../img/Crimea.jpg) no-repeat; */   
+    /*Расставить города.
+      Написать историю.
+      Запустить самолетик.*/
+    /* background-size: cover; */ 
+    /*linear-gradient(45deg, rgba(66, 170, 235, 0.5), rgba(34, 101, 163, .5)) ,*/
+}
+.block3 {
+    
+    background:url(../img/BAL.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: hidden;
+    
+}
+
+.block4 {
+    
+    background:url(../img/pic444.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+/*
+.block5 {
+  background: linear-gradient( blue, transparent 1px), linear-gradient( 90deg, blue, transparent 1px);
+  background-size: 30px 30px;
+  background-position: center center;
+}*/
+
+/*                                Стили для ссылок на "гербы" городов
+#link1 {
+  display: block;
+  position: absolute;
+  width:90px;
+  height:110px;
+  left:50px;
+  top:850px;
+  background: url(../img/taganlogo.png) no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+#link2 {
+  display: block;
+  position: absolute;
+  width:90px;
+  height:110px;
+  left:550px;
+  top:1350px;
+  background: url(../img/Almaty.svg.png) no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+#link span {
+  display: block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+*/ 
+.tagan {
+    position: absolute;
+    left:180px;
+    top:850px;
+    font-size:150%;
+    
+}
+.ala {
+    position: absolute;
+    left:680px;
+    top:1320px;
+    font-size:150%;
+}
+
+
+
+/*
+div .map  {
+    position:absolute;
+    width: 400px;
+    height: 96%;
+    left:200px;
+    top:820px;
+    background: url(../img/map.jpg) no-repeat;
+    background-size:contain;
+}
+
+*/ 
+
+.map { /*Стиль для оформления блока карты с SVG*/
+    position:absolute;
+    text-align: center;
+    height: 70%;
+    width: 45%;
+    left:195px;
+    top:840px;
+    z-index: 1;
+
+}
+
+
+svg {
+    border-radius: 40px;
+}
+/*.russia,
+.uz,
+.kz,
+.krg,
+.georgia */ .country{
+	opacity: .9;
+}
+  
+
+/*Города*/
+
+/*.cities {
+    position: absolute;
+    height: 70%;
+    width: 45%;
+} */
+
+/*.TGN,
+.ALA,
+.RND,
+.AKT,
+.ATI,
+.AST,
+.BEL,
+.BIW,
+.TBI,
+.TAW,
+.GRO,
+.HAN,
+.VOL,
+.KAR,
+.KRA,
+.ORE,
+.URA,
+.SAR,
+.STA,
+.SOC,
+.ELI,
+.KIZ {
+    color: black;
+    position: absolute;
+    font-weight:bold;
+    
+    
+    
+}
+
+
+*/
+
+
+
+/*
+.TGN {
+    top:5px; 
+    left:315px; 
+    font-size: 120%;
+}
+.ALA{
+    top:450px; 
+    left:215px; 
+    font-size: 120%;
+}
+.TAW {
+    top:370px; 
+    left:40px;    
+}
+.BIW {
+    top:460px; 
+    left:120px;   
+}
+.AST {
+    top: 360px;
+    left: 520px;
+}
+.KAR {
+    top: 390px;
+    left: 430px;
+}
+*/
+
+
+
+
+
+
+.russia:hover {
+	transition: opacity .2s ease;
+	opacity: .5;
+	cursor: pointer;
+}
+
+/* .uz:hover {
+    transition: opacity .2s ease;
+	opacity: .5;
+	cursor: pointer;
+}
+.country:hover {
+    transition: opacity .2s ease;
+	opacity: .5;
+	cursor: pointer;
+}
+.krg:hover {
+    transition: opacity .2s ease;
+	opacity: .5;
+	cursor: pointer;
+}
+.georgia:hover {
+    transition: opacity .2s ease;
+	opacity: .5;
+	cursor: pointer;
+}
+*/
+
+.description { /*Описание страны*/
+	display: none;
+	position: absolute;
+	padding: 20px;
+	box-sizing: border-box;
+	width: 300px;
+	height: 300px;
+	box-shadow: 0 0 32px 10px #E0E0E0;
+	left: 750px;
+	top:0px;
+	font-family: sans-serif;
+    font-style: oblique;
+    font-size: 120%;
+    background-color:#FAFAFA;
+    /*background: url(../img/bg11.png) repeat repeat;*/
+    border-radius: 10px;
+    
+}
+
+.description img { /*Стиль для картинки описания*/
+	width: 250px;
+	margin-bottom: 0px;
+}
+
+.page { /*Стиль для свитка*/
+    background: url(../img/paper1.png) no-repeat;
+    left:0px;
+    top:780px;
+    width:70%;
+    height:95%;
+    position: absolute;
+    background-size: cover; 
+    
+    
+     
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Галерея111
+
+.container {
+    position: absolute;
+    width: 80%; 
+    
+    margin: 0 auto; 
+    
+}  */
+/*
+.photo1 {
+    float: left; 
+    width: 20%; 
+    padding: 15px; 
+    
+    height: 200px;
+} */
+
+/*
+figure {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.photo1 img {
+    display: block;
+    width: 300px;
+    height: 200px;
+    border: 10px solid #eee;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 10px;
+} */
+/*
+.photo1 a:hover {
+    opacity: 0.5;
+} */
+/*
+.photo1 a {
+    display: block;
+    position: relative;
+} */
+/*
+.photo1 a:after {
+    content: '';
+    width: 52px;
+    height: 35px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+} */
+/*
+.photo1:hover > a:after {
+    visibility: visible;
+} */
+/*
+.photo1 figcaption { 
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 15%;
+    font-weight:bold;
+    font-size: 100%;
+    background: white;
+    font-style:italic;
+    border-radius: 15px;
+    padding-right:
+    
+    
+} */
+
+
+
+
+
+.block3 h1 {
+    font-size: 200%;
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+    margin: 0 0;
+}
+
+.block4 h1 {
+    font-size: 200%;
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+    margin: 0 0;
+}
+
+
+/*Отступы от меню
+
+
+
+#almaty {
+    margin-top: 40px;
+}
+
+#taganrog {
+    margin-top: 40px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Часы
+#clock {
+     width: 120px;
+     height: 60px;
+     padding: 7px 7px 0 7px;
+     border: 1px solid black;
+     border-radius: 10px;
+     -webkit-box-shadow: 0px 2px 0px 0px rgba(50, 50, 50, 0.65);
+     -moz-box-shadow:    0px 2px 0px 0px rgba(50, 50, 50, 0.65);
+     box-shadow:         0px 2px 0px 0px rgba(50, 50, 50, 0.65);
+     font-size:25px;
+}
+
+.town {
+display:block;
+font-size:20px;
+}
+
+.time {
+font-weight: bold;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Галерея финальная версия*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container{
+  position: relative;
+  width:65%;
+  height:60%;
+  top:8%;
+  left:17%;
+  border-radius: 20px;
+}
+
+
+
+/* Hide the images by default */
+.mySlides{
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor{
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next{
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext{
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  
+}
+
+/* Container for image text */
+.caption-container{
+  text-align:center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+  width:100%;
+  height:20%;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column{
+  float: left;
+  width: 16.66%;
+  
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo{
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover{
+  opacity: 1;
+}
+
+p#caption {
+    position: relative;
+    top: 25%;
+    left:0%;
+}
+
+
+/*Галерея финальная версия*/
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  top:15%;
+  
+}
+
+/* Hide the images by default */
+.mySlides1 {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev1, .next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  top:45%;
+}
+
+/* Position the "next button" to the right */
+.next1 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev1:hover, .next1:hover {
+  background-color: rgba(0,0,0,0.8);
+  top:45%;
+}
+
+/* Caption text */
+.text1 {
+  color: #17202A;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext1 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #1C2833;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+div span .dot {
+    position:relative;
+    top:40%;
+}
+
+
+
+	
+.border {
+    position: relative;
+    width: 80%;
+    height: 70%;
+    top:5%;
+    left:10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
